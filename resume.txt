@@ -1,4 +1,150 @@
-2nd semester 
-skills
-hobbies
-activity
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{0ff97aff-585b-11ef-9283-2cdb0749f236}.TM.blf
+ NTUSER.DAT{0ff97aff-585b-11ef-9283-2cdb0749f236}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{0ff97aff-585b-11ef-9283-2cdb0749f236}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ cooking/
+ desktop/
+ geekster/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ sun
+'vtdghf j'
+
+mskal@sunanda MINGW64 ~ (master)
+$ cd desktop
+
+mskal@sunanda MINGW64 ~/desktop (master)
+$ cd geekster
+
+mskal@sunanda MINGW64 ~/desktop/geekster (master)
+$ cd resume
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ nano resume
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/mskal/desktop/geekster/resume/.git/
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git remote add origin https://github.com/Sunandasingg/resume.git
+error: remote origin already exists.
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git branch -M master
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Sunandasingg/resume.git'
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git remote -v
+origin  https://github.com/Sunandasingg/resume.git (fetch)
+origin  https://github.com/Sunandasingg/resume.git (push)
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ ls
+resume  resume.txt
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   resume
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git add .
+warning: in the working copy of 'resume', LF will be replaced by CRLF the next time Git touches it
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git commit -m "commit"
+[master f0a10f8] commit
+ 1 file changed, 6 insertions(+)
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+
+
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ $ git push -u origin master
+bash: $: command not found
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$  git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 567 bytes | 141.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Sunandasingg/resume.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$  git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git clonehttps://github.com/Sunandasingg/resume.git
+git: 'clonehttps://github.com/Sunandasingg/resume.git' is not a git command. See 'git --help'.
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git clone https://github.com/Sunandasingg/resume.git
+fatal: destination path 'resume' already exists and is not an empty directory.
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ git clone https://github.com/Sunandasingg/resume.git
+fatal: destination path 'resume' already exists and is not an empty directory.
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ mkdir apple
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume (master)
+$ cd apple
+
+mskal@sunanda MINGW64 ~/desktop/geekster/resume/apple (master)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
